@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+CRISPY_TEMPLATE_PACK='bootstrap4'
 ROOT_URLCONF = 'projectTodo.urls'
 
 TEMPLATES = [
